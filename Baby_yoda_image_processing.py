@@ -4,8 +4,9 @@
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
-#read my image from file
-img = plt.imread('/home/shreekantdas/Documents/Personal_Projects/personal_projects/resources/baby_yoda_1.jpeg')
+import os
+path = os.path.dirname(os.path.abspath("__file__"))
+img = plt.imread(path+'/resources/baby_yoda_1.jpeg')
 
 #show my image
 plt.imshow(img)
