@@ -43,9 +43,8 @@ print('Mean squared error: %.2f'
 print(r2_score(y_test,y_pred))
 
 
+plt.figure(figsize=(10,10))
 plt.scatter(x_test,y_test,color='red')
 plt.plot(x_test, y_pred, color='blue', linewidth=3)
-plt.xticks(())
-plt.yticks(())
-
+plt.legend()
 plt.show()
