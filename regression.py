@@ -1,5 +1,6 @@
 # Data center : https://www.kaggle.com/andonians/random-linear-regression/data
 # https://towardsdatascience.com/introduction-to-machine-learning-algorithms-linear-regression-14c4e325882a
+# https://towardsdatascience.com/a-beginners-guide-to-linear-regression-in-python-with-scikit-learn-83a8f7ae2b4f
 
 # Using Sklearn Library
 import numpy as np
